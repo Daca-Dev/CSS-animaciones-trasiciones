@@ -4,6 +4,6 @@ body {
 input:checked {
     counter-increment: game;
 }
-.total-counter::after {
+.total-count::after {
     content: counter(game);
 }
